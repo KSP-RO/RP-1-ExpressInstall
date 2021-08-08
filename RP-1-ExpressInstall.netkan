@@ -9,7 +9,8 @@ $vref: '#/ckan/ksp-avc'
 x_netkan_force_v: true
 resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*
-  repository: https://github.com/KSP-RO/RP-1-ExpressInstall
+  repository: https://github.com/KSP-RO/RP-0
+  bugtracker: https://github.com/KSP-RO/RP-0/issues
 depends:
   - name: ModuleManager
   - name: RP-0
