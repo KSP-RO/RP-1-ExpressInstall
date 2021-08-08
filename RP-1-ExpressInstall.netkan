@@ -26,6 +26,7 @@ depends:
   - name: Kerbalism-Config-RO
   - name: RSSDateTimeFormatter
   - name: ReStock
+  - name: ReStockPlus
   - name: ROEngines
   - name: ROTanks
   - name: ROCapsules
