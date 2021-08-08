@@ -12,43 +12,6 @@ resources:
   repository: https://github.com/KSP-RO/RP-0
   bugtracker: https://github.com/KSP-RO/RP-0/issues
 depends:
-  - name: ModuleManager
-  - name: RP-0
-  - name: RealismOverhaul
-  - name: SXTContinued
-  - name: ContractConfigurator
-  - name: CustomBarnKit
-  - name: VenStockRevamp-NewParts
-  - name: RealSolarSystem
-  - name: MagiCore
-  - name: ClickThroughBlocker
-  - name: ToolbarController
-  - name: Kerbalism-Config-RO
-  - name: RSSDateTimeFormatter
-  - name: ReStock
-  - name: ReStockPlus
-  - name: ROEngines
-  - name: ROTanks
-  - name: ROCapsules
-  - name: ROSolar
-  - name: B9-PWings-Fork
-  - name: KSPWheel
-  - name: KerbalRenamer
-  - name: KSCSwitcher
-  - name: AtmosphereAutopilot
-  - name: ProceduralFairings
-  - name: ProceduralParts
-  - name: RCSBuildAid
-  - name: RealAntennas
-  - name: TestFlight
-  - name: TextureReplacer
-  - name: ShipManifest
-  - any_of:
-    - name: MechJeb2-dev
-    - name: MechJeb2
-  - name: Waterfall
-  - name: HangerExtenderExtended
-  - name: ModularLaunchPads
   - name: RSSGraphics-ExpressInstall
 recommends:
   - name: EditorExtensionsRedux
