@@ -13,6 +13,7 @@ resources:
   bugtracker: https://github.com/KSP-RO/RP-0/issues
 depends:
   - name: RSSGraphics-ExpressInstall
+  - name: ModuleManager
 recommends:
   - name: EditorExtensionsRedux
   - name: KerbalAlarmClock
