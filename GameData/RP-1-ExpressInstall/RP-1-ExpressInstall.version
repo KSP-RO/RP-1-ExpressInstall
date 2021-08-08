@@ -1,0 +1,30 @@
+{
+	"NAME": "RP-1 Express Install",
+	"URL": "https://raw.githubusercontent.com/KSP-RO/RP-1-ExpressInstall/main/GameData/RP-1-ExpressInstall/RP-1-ExpressInstall.version",
+	"HOMEPAGE": "https://github.com/KSP-RO/RP-1-ExpressInstall/",
+	"VERSION":
+	{
+		"MAJOR": 1,
+		"MINOR": 0,
+		"PATCH": 0,
+		"BUILD": 0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR": "1",
+		"MINOR": "10",
+		"PATCH": "0"
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR": "1",
+		"MINOR": "10",
+		"PATCH": "0"
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR": "1",
+		"MINOR": "10",
+		"PATCH": "1"
+	}
+}
