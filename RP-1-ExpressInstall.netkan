@@ -12,7 +12,7 @@ resources:
   repository: https://github.com/KSP-RO/RP-0
   bugtracker: https://github.com/KSP-RO/RP-0/issues
 depends:
-  - name: RSSGraphics-ExpressInstall
+  - name: RP-1-ExpressInstall-Graphics
   - name: ModuleManager
 recommends:
   - name: EditorExtensionsRedux
