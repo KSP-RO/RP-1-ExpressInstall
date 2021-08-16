@@ -17,4 +17,3 @@ depends:
 recommends:
   - name: EditorExtensionsRedux
   - name: KerbalAlarmClock
-  - name: ModularLaunchPads
