@@ -11,6 +11,7 @@ resources:
   homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/190040-*
   repository: https://github.com/KSP-RO/RP-0
   bugtracker: https://github.com/KSP-RO/RP-0/issues
+  manual: https://github.com/KSP-RO/RP-0/wiki
 depends:
   - name: RP-1-ExpressInstall-Graphics
   - name: ModuleManager
