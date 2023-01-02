@@ -19,3 +19,4 @@ recommends:
   - name: EditorExtensionsRedux
   - name: KerbalAlarmClock
   - name: TransferWindowPlannerFork
+  - name: LunarTransferPlanner
