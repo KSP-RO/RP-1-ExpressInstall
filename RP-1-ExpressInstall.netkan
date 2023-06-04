@@ -1,4 +1,4 @@
-spec_version: v1.26
+spec_version: v1.31
 identifier: RP-1-ExpressInstall
 name: Realistic Progression One (RP-1) Express Install
 abstract: Express Installation for RP-1, Realism Overhaul, Real Solar System etc. Select only this mod and hit apply, CKAN will guide you through the rest.
@@ -14,6 +14,7 @@ resources:
   manual: https://github.com/KSP-RO/RP-0/wiki
 depends:
   - name: RP-1-ExpressInstall-Graphics
+    choice_help_text: Select your graphics level. Low graphics will function on 8GB of RAM and requires the least powerful computer. Medium graphics looks better, but needs 16GB of RAM and a GTX 970/R9 390 or better. High graphics is best with 24GB+ (but might function on 16GB) and needs more modern graphics hardware (GTX 1070+/RX 5600+).
   - name: ModuleManager
 recommends:
   - name: EditorExtensionsRedux
