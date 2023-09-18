@@ -43,10 +43,6 @@ depends:
   - name: Shabby
   - name: RP-1-ExpressInstall-Graphics
     choice_help_text: Select your graphics level. Low graphics will function on 8GB of RAM and requires the least powerful computer. Medium graphics looks better, but needs 16GB of RAM and a GTX 970/R9 390 or better. High graphics is best with 24GB+ (but might function on 16GB) and needs more modern graphics hardware (GTX 1070+/RX 5600+).
-  - any_of:
-    - name: RP-1
-    - name: RP-0
-    choice_help_text: Choose either the current version of RP-1 or the legacy version for continuing old saves
   - name: RealSolarSystem
 recommends:
   - name: ROLoadingImages
