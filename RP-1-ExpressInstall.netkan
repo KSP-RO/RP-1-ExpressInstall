@@ -14,33 +14,61 @@ resources:
   manual: https://github.com/KSP-RO/RP-0/wiki
 depends:
   - name: ModuleManager
+    suppress_recommendations: true
   - name: KSPCommunityFixes
+    suppress_recommendations: true
   - name: KSPBurst-Full
+    suppress_recommendations: true
   - name: ReStock
+    suppress_recommendations: true
   - name: ReStockPlus
+    suppress_recommendations: true
   - name: RSSDateTimeFormatter
+    suppress_recommendations: true
   - name: ROEngines
+    suppress_recommendations: true
   - name: ROHeatshields
+    suppress_recommendations: true
   - name: ROTanks
+    suppress_recommendations: true
   - name: ROCapsules
+    suppress_recommendations: true
   - name: ROSolar
+    suppress_recommendations: true
   - name: B9-PWings-Fork
+    suppress_recommendations: true
   - name: KSPWheel
+    suppress_recommendations: true
   - name: KerbalRenamer
+    suppress_recommendations: true
   - name: KSCSwitcher
+    suppress_recommendations: true
   - name: AtmosphereAutopilot
+    suppress_recommendations: true
   - name: ProceduralFairings
+    suppress_recommendations: true
   - name: ProceduralParts
+    suppress_recommendations: true
   - name: RCSBuildAid
+    suppress_recommendations: true
   - name: RealAntennas
+    suppress_recommendations: true
   - name: TestFlight
+    suppress_recommendations: true
   - name: TextureReplacer
+    suppress_recommendations: true
   - name: MechJeb2
+    suppress_recommendations: true
   - name: Waterfall
+    suppress_recommendations: true
   - name: HangerExtenderExtended
+    suppress_recommendations: true
   - name: ModularLaunchPads
+    suppress_recommendations: true
   - name: ConformalDecals
+    suppress_recommendations: true
   - name: Shabby
+    suppress_recommendations: true
   - name: RP-1-ExpressInstall-Graphics
     choice_help_text: Select your graphics level. Low graphics will function on 8GB of RAM and requires the least powerful computer. Medium graphics looks better, but needs 16GB of RAM and a GTX 970/R9 390 or better. High graphics is best with 24GB+ (but might function on 16GB) and needs more modern graphics hardware (GTX 1070+/RX 5600+).
   - any_of:
@@ -48,6 +76,7 @@ depends:
     - name: RP-0
     choice_help_text: Choose either the current version of RP-1 or the legacy version for continuing old saves
   - name: RealSolarSystem
+    suppress_recommendations: true
 recommends:
   - name: ROLoadingImages
   - name: EditorExtensionsRedux
