@@ -1,7 +1,7 @@
 spec_version: v1.31
 identifier: RP-1-ExpressInstall
-name: Realistic Progression One (RP-1) Express Install
-abstract: Express Installation for RP-1, Realism Overhaul, Real Solar System etc. Select only this mod and hit apply, CKAN will guide you through the rest.
+name: Realism Overhaul/Realistic Progression 1 (RO/RP-1) Express Install
+abstract: Express Installation for RP-1, RO, Real Solar System etc. Select only this mod and hit apply, CKAN will guide you through the rest.
 license: CC-BY-NC-SA
 author: KSP-RO Group
 $kref: '#/ckan/github/KSP-RO/RP-1-ExpressInstall'
@@ -73,8 +73,8 @@ depends:
     choice_help_text: Select your graphics level. Low graphics will function on 8GB of RAM and requires the least powerful computer. Medium graphics looks better, but needs 16GB of RAM and a GTX 970/R9 390 or better. High graphics is best with 24GB+ (but might function on 16GB) and needs more modern graphics hardware (GTX 1070+/RX 5600+).
   - any_of:
     - name: RP-1
-    - name: RP-0
-    choice_help_text: Choose either the current version of RP-1 or the legacy version for continuing old saves
+    - name: RONoCareer
+    choice_help_text: RO does not support career mode itself. If you want to play career, select RP-1. Otherwise choose No Career.
   - name: RealSolarSystem
     suppress_recommendations: true
 recommends:
