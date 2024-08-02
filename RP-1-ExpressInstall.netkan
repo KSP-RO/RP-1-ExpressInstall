@@ -89,4 +89,4 @@ conflicts:
   - name: SCANsat
   - name: StageRecovery
   - name: KerbalEngineerRedux
-    max_version: v1.1.9.4
+    max_version: 1.1.9.4
