@@ -83,6 +83,9 @@ recommends:
   - name: KerbalAlarmClock
   - name: TransferWindowPlannerFork
   - name: LunarTransferPlanner
+supports:
+  - name: KerbalEngineerRedux
+    min_version: 1.1.9.5
 conflicts:
   - name: SmokeScreen-RO
   - name: CustomBarnKit-RO
