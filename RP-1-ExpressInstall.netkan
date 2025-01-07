@@ -53,7 +53,10 @@ depends:
     suppress_recommendations: true
   - name: RealAntennas
     suppress_recommendations: true
-  - name: TestFlight
+  - any_of:
+    - name: TestFlight
+    - name: TestLite
+    choice_help_text: TestFlight is recommended for a balanced RP-1 experience. Only use TestLite if you are fine with unrealistic reliability from engines.
     suppress_recommendations: true
   - name: TextureReplacer
     suppress_recommendations: true
