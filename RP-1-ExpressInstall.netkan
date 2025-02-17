@@ -84,6 +84,7 @@ recommends:
   - name: TransferWindowPlannerFork
   - name: LunarTransferPlanner
   - name: KerbalFoundriesContinued
+  - name: CanaveralPads
 supports:
   - name: KerbalEngineerRedux
     min_version: 1.1.9.5
