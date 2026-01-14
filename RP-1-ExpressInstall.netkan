@@ -84,6 +84,8 @@ recommends:
   - name: TransferWindowPlannerFork
   - name: LunarTransferPlanner
   - name: KerbalFoundriesContinued
+suggests:
+  - name: RP1TechTreeKompacted
 supports:
   - name: KerbalEngineerRedux
     min_version: 1.1.9.5
